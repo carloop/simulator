@@ -1,0 +1,42 @@
+# Work-in-progress versions
+archive/
+
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+
+# CAM files
+*.$$$
+*.cmp
+*.ly2
+*.l15
+*.sol
+*.plc
+*.stc
+*.sts
+*.crc
+*.crs
+
+*.dri
+*.drl
+*.gpi
+*.pls
+
+*.drd
+*.drd.*
+
+*.pro
+
+*.info
+
+*.eps
+
+# Eagle lock files
+*.lck
+
+# Eagle settings files
+*.epf
+
+# Vim swap files
+*.sw*
