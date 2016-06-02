@@ -2,15 +2,7 @@
 
 This is a project we used to help develop and test the [Carloop][carloop] open-source car adapter. We hope you'll find it useful for your projects too.
 
-## Background
-
-CAN is the communication protocol used between most computers in cars. It is a multicast protocol where each message has an identifier and up to 8 data bytes. Any node listening on the bus can receive any message transmitted. In order to make sense of the messages, the receivers need to know the data format used by the transmitter of each message for the data bytes.
-
-There are higher level protocols built on top of CAN, most importantly ISO 15765 used for OBD-II (On-Board Diagsnotics II) mandated on all cars since 2008 and used on many cars before. See [this tutorial by Sparkfun for more information about the OBD-II protocol][obd-getting-started]
-
-This CAN simulator can be used to transmit and receive messages simulating OBD-II communications and regular vehicle messages.
-
-## Components
+## Overview
 
 The simulator consists of:
 - An OBD port (the same you have in your car under the steering wheel) to plug a device to test
@@ -19,6 +11,14 @@ The simulator consists of:
 - [The program](simulator-program) that communicates with the simulator board and that decide what to do with the CAN messages received
 
 ![CAN simulator](simulator.png)
+
+## Background
+
+CAN is the communication protocol used between most computers in cars. It is a multicast protocol where each message has an identifier and up to 8 data bytes. Any node listening on the bus can receive any message transmitted. In order to make sense of the messages, the receivers need to know the data format used by the transmitter of each message for the data bytes.
+
+There are higher level protocols built on top of CAN, most importantly ISO 15765 used for OBD-II (On-Board Diagsnotics II) mandated on all cars since 2008 and used on many cars before. See [this tutorial by Sparkfun for more information about the OBD-II protocol][obd-getting-started]
+
+This CAN simulator can be used to transmit and receive messages simulating OBD-II communications and regular vehicle messages.
 
 ## Simulator board
 
