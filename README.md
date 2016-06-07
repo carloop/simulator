@@ -8,7 +8,7 @@ The simulator consists of:
 - An OBD port (the same you have in your car under the steering wheel) to plug a device to test
 - The simulator board to convert CAN voltages to logic levels and provide 12V on the OBD port
 - A Raspberry Pi to run the simulator program
-- [The program](simulator-program) that communicates with the simulator board and that decide what to do with the CAN messages received
+- [The program][simulator-program] that communicates with the simulator board and that decide what to do with the CAN messages received
 
 ![CAN simulator](simulator.png)
 
