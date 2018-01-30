@@ -1,6 +1,6 @@
 # CAN Simulator
 
-This is a project we used to help develop and test the [Carloop][carloop] open-source car adapter. We hope you'll find it useful for your projects too.
+This is a project we used to help develop and test the [Carloop open-source car adapter][carloop]. We hope you'll find it useful for your projects too.
 
 ## Overview
 
