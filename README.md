@@ -31,7 +31,7 @@ Since the OBD port is supposed to provide 12 volts, a simple [5V to 12V step up 
 
 The OBD connector is part of an off-the-shelf [9-pin OBD ribbon extension cable available on Amazon][obd-cable].
 
-- [Board schematics (PDF)](schematics) [(Eagle)](schematics-eagle)
+- [Board schematics (PDF)][schematics] [(Eagle)][schematics-eagle]
 - [Board layout (Eagle)][layout-eagle]
 - [Bill of materials][bom]
 - [MCP2515 CAN controller datasheet][mcp2515-datasheet]
@@ -57,13 +57,13 @@ Copyright 2016 Julien Vanier. Distributed under the MIT license. See [LICENSE](/
 
 [carloop]: https://www.carloop.io
 [simulator-program]: https://github.com/carloop/simulator-program
-[schematics]: eagle/CAN-Simulator_v1.pdf
-[schematics-eagle]: eagle/CAN-Simulator_v1.sch
-[layout-eagle]: eagle/CAN-Simulator_v1.brd
+[schematics]: eagle/CAN-Simulator_v1.1.pdf
+[schematics-eagle]: eagle/CAN-Simulator_v1.1.sch
+[layout-eagle]: eagle/CAN-Simulator_v1.1.brd
 [bom]: eagle/CAN-Simulator_v1_BOM.csv
 [obd-getting-started]: https://learn.sparkfun.com/tutorials/getting-started-with-obd-ii
 [obd-cable]: https://www.amazon.com/gp/product/B00GGLVXG2/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1
 [mcp2515-datasheet]: datasheets/MCP2515%20Datasheet.pdf
 [tja1049-datasheet]: datasheets/TJA1049%20Datasheet.pdf
 [12v-step-up-regulator]: https://www.pololu.com/product/2117
-[pcb-osh-park]: https://oshpark.com/shared_projects/r7ItELkM
+[pcb-osh-park]:https://oshpark.com/shared_projects/GOPwocjS
